@@ -1,0 +1,39 @@
+#board {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.square {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	font-size: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.square:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+#message {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#reset {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 10px 20px;
+}
